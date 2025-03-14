@@ -129,4 +129,55 @@ main {
     color:#474747;
     font-weight: 600;
   }
+   /* skill section */
+
+
+  .skills {
+    margin-top: 117px;
+    /* text-align: center; */
+  }
+  .skill-title {
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818;
+    text-align: center;
+  }
+  .skill-description {
+    width: 909px;
+    color: #757575;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .skill-container {
+    display: flex;
+    gap: 30px;
+    padding:30px
+  }
+  .skill-items {
+    width: 267px;
+    height: 330px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 50px  rgb(0, 0, 0,.1) ;
+  }
+  .skill-items > .skill-heading {
+    margin-top:30px;
+    color:#181818;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .skill-items> .skill-ability {
+    margin-top: 20px;
+    font-size: 16px;
+    color:#757575;
+  }
+
+
+
+
+
+  
+
   
