@@ -25,6 +25,20 @@
     border: none;
     border-radius: 5px;
 }
+.section-title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  text-align: center;
+}
+.section-description {
+  font-size: 18px;
+  font-weight: 400;
+  color:#757575;
+}
+
+/* end of shared style */
+
 .header {
     background-color: #FFF8F3;
     background-image: url("../assets/icons/developer.png"),url("../assets/icons/header_bg.png");
@@ -94,6 +108,9 @@
 main {
     max-width: 1140px;
     margin: 0 auto;
+}
+main>section {
+  margin-top: 130px;
 }
 .about {
     margin-top: 130px;
@@ -173,6 +190,103 @@ main {
     font-size: 16px;
     color:#757575;
   }
+
+  /* resume section */
+  .resume-title {
+    margin-top: 113px;
+    font-size: 30px;
+    font-weight: bold;
+    color:#474747;
+  }
+
+  .resume-container {
+    display: flex;
+    gap: 24px;
+  }
+  .resume-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .experience {
+    width: 511px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+  }
+  .experience>.experience-title {
+    color:#474747;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .experience>.experience-subtitle {
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .experience>.experience-description {
+    color:#757575;
+    font-size: 16px ;
+    font-weight: 400;
+  }
+  .experience > hr {
+    color:#D1D1D1;
+    color:red;
+  }
+  .download {
+    text-align: center;
+    margin-top: 65px;
+  }
+
+  /* footer section */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF8F3;
+    margin-top: 113px;
+    /* padding-top: 130px; */
+    padding: 130px 230px;
+  }
+  .footer-column1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+  }
+  .footer-column1>h3 {
+    text-align: start;
+  }
+  .social-platform > .middle {
+    margin: 0px 10px;
+  }
+
+  .footer-column2 {
+    width: 50%;
+  }
+  .footer-column2 form{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    gap : 20px;
+  }
+  .footer-column2 form > input[type="text"] , input[type="email"], textarea{
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .footer-column2 form > input[type="submit"] {
+    width: 150px;
+  }
+  
+
+  
+
+
+
+
 
 
 
